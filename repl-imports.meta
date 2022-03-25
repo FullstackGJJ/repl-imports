@@ -1,0 +1,5 @@
+;; -*- scheme -*-
+((synopsis "Quick overview of current imports in repl")
+ (author "Hank Lin")
+ (category lang-exts)
+ (license "Unlicense"))

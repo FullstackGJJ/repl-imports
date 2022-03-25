@@ -1,0 +1,3 @@
+;; -*- scheme -*-
+
+(standard-extension 'repl-imports "0.1")

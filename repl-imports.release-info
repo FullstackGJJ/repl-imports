@@ -1,0 +1,4 @@
+;; -*- scheme -*-
+(repo git "git://github.com/mario-goulart/{egg-name}.git")
+
+(release "0.1")
