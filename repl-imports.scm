@@ -2,7 +2,7 @@
 
 (repl-imports)
 
-(import chicken.string srfi-113 srfi-128)
+(import scheme (chicken sort) (chicken string) srfi-113 srfi-128)
 
 (define (raw-current-import-list) (map (lambda (x) (car (string-split (->string x) "#"))) (map cdr (##sys#current-environment))))
 (define (current-import-set) (list->set (make-default-comparator) (raw-current-import-list)))
