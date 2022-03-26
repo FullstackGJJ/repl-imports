@@ -1,5 +1,11 @@
-*.install.sh
-*.build.sh
-*.link
+*.import.scm
 *.so
-*.static.o
+*.o
+\#*
+*~
+*.build.sh
+*.install.sh
+*.link
+
+repl-imports
+repl-imports-cmd
